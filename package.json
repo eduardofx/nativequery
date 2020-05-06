@@ -1,0 +1,19 @@
+{
+    "name": "nativeQuery",
+    "version": "1.0.0",
+    "description": "Typeorm Native Query",
+    "main": "build/index.js",
+    "author": {
+        "name": "Eduardo Kawassaki",
+        "email": "eduardok.fx@gmail.com"
+    },
+    "scripts": {
+        "build": "tsc -d",
+        "clean": "rm -rf ./build/*"
+    },
+    "keywords": ["typeorm"],
+    "license": "ISC",
+    "devDependencies": {
+        "typescript": "^3.8.4"
+    }
+}
