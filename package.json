@@ -1,5 +1,5 @@
 {
-    "name": "nativeQuery",
+    "name": "nativequery",
     "version": "1.0.0",
     "description": "Typeorm Native Query",
     "main": "build/index.js",
@@ -11,9 +11,14 @@
         "build": "tsc -d",
         "clean": "rm -rf ./build/*"
     },
-    "keywords": ["typeorm"],
+    "keywords": [
+        "typeorm"
+    ],
     "license": "ISC",
     "devDependencies": {
         "typescript": "^3.8.4"
+    },
+    "dependencies": {
+        "user": "0.0.0"
     }
 }
